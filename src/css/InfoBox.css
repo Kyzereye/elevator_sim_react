@@ -1,0 +1,12 @@
+.info-box {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.info-box p {
+  margin: 5px 0;
+  color: #555;
+}
+

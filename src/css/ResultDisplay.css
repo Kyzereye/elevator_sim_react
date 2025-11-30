@@ -1,0 +1,138 @@
+.result-box {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.result-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #eee;
+}
+
+.result-item .label {
+  font-weight: 600;
+  color: #333;
+}
+
+.result-item .value {
+  font-weight: 700;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.output-format {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-size: 1.1rem;
+}
+
+.result-summary {
+  background: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.steps-list {
+  background: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.steps-list h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.step-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.step-item:last-child {
+  border-bottom: none;
+}
+
+.step-item p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.step-item.current {
+  background: #f0f0f0;
+  padding: 8px 10px;
+  font-weight: 600;
+}
+
+.step-item.current p {
+  color: #000;
+}
+
+.complete-message {
+  margin-top: 15px;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.summary-breakdown {
+  margin-top: 20px;
+  padding: 15px;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.summary-breakdown h4 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.breakdown-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.breakdown-table tr {
+  border-bottom: 1px solid #eee;
+}
+
+.breakdown-table tr:last-child {
+  border-bottom: none;
+}
+
+.breakdown-table tr.breakdown-total {
+  border-top: 2px solid #333;
+}
+
+.breakdown-table td {
+  padding: 8px 10px;
+}
+
+.breakdown-label {
+  color: #555;
+  width: 60%;
+}
+
+.breakdown-value {
+  color: #000;
+  text-align: right;
+  font-weight: 600;
+}
+
+.breakdown-total .breakdown-label,
+.breakdown-total .breakdown-value {
+  padding-top: 12px;
+}
+
